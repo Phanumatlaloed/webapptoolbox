@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html lang="th">
+<body>
+    <h1>รายวิชาทั้งหมด</h1>
+    {% for course in courses %}
+    <p>รหัสวิชา: {{course.code}}, ชื่อวิชา:{{course.name}}</p>
+    {% endfor %}
+</body>
+<html>
